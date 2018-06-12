@@ -82,14 +82,21 @@
 #		if nome == 'sair':
 #			break
 #		arquivo.write(nome + '\n')
+
+
 #
-nomes = [ 'joao', 'camila', 'christian', 'roque' ]
-nomes[0] = 'carolina'
-nomes.append('Rick')
-nomes.insert(0, 'patrao')
-for nomes_var in nomes:
-	print("Bem vindo {}".format(nomes_var.title()))
-while len(nomes) > 0:
-	print(nomes)
-	nomes.pop()
-print(nomes)
+#nomes = [ 'joao', 'camila', 'christian', 'roque' ]
+#nomes[0] = 'carolina'
+#addappend = input("digite o nome de uma nova pessoa append:")
+#nomes.append(addappend)
+#addinsert = input("digite o nome de uma nova pessoa para adicionar:")
+#nomes.insert(0, addinsert)
+#for nomes_var in nomes:
+#	print("Bem vindo {}".format(nomes_var.title()))
+#while len(nomes) > 0:
+#	print(nomes)
+#	nomes.pop()
+#print(nomes)
+#with open('lista_nomes.txt', 'r') as file:
+#	print(file.readlines())
+#from sub
